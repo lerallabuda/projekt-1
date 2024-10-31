@@ -1,32 +1,26 @@
+.character {
+    border: 7px solid rgb(88, 40, 121);
+    display: flex;
+    width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: rgb(195, 166, 219);
+   
+}
+img {
+    padding-right: 15px;
+    width: 300px;
+}
+.title {
+    text-align: center;
+    font: 3sem sans-serif;
+}
 body {
-    background-color: darkred;
-
+    background-color: rgb(156, 124, 209);
 }
 
-.square {
-    border: 3px solid #000000;
-    margin-top: 1rem;
-    display: inline-block;
-}
-
-button {
-    background-color: black;
-    color: #555555;
-    font-size: 30px;
-    
-}
-
-h1{
-    font-size: 40px;
-
-}
-.square h1{
-    font-size: 35px;
-    color: #000000;
-}
-.square h2{
-    font-size: 30px;
-}
-.square h3{
-    font-size: 30px;
+.text {
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
 }
